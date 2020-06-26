@@ -1,0 +1,12 @@
+{
+  "name": "stpomodoro",
+  "displayName": "stpomodoro",
+  "expo": {
+    "name": "stpomodoro",
+    "slug": "stpomodoro",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
