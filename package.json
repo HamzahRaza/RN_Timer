@@ -8,24 +8,38 @@
     "test": "jest"
   },
   "dependencies": {
-    "expo": "~38.0.1",
-    "expo-splash-screen": "~0.3.1",
-    "expo-status-bar": "^1.0.0",
-    "expo-updates": "~0.2.10",
-    "react": "~16.11.0",
-    "react-dom": "~16.11.0",
-    "react-native": "~0.62.2",
-    "react-native-gesture-handler": "~1.6.1",
-    "react-native-reanimated": "~1.9.0",
-    "react-native-screens": "~2.9.0",
-    "react-native-unimodules": "~0.10.1",
-    "react-native-web": "~0.11.7"
+    "@expo-google-fonts/athiti": "^0.1.0",
+    "@react-native-async-storage/async-storage": "~1.15.0",
+    "@react-native-community/masked-view": "0.1.10",
+    "@react-native-community/slider": "4.1.12",
+    "@react-navigation/native": "^5.8.10",
+    "@react-navigation/stack": "^5.12.8",
+    "@reduxjs/toolkit": "^1.5.0",
+    "date-fns": "^2.16.1",
+    "expo": "^44.0.0",
+    "expo-font": "~10.0.4",
+    "expo-splash-screen": "~0.14.1",
+    "expo-status-bar": "~1.2.0",
+    "expo-updates": "~0.11.5",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-native": "0.64.3",
+    "react-native-gesture-handler": "~2.1.0",
+    "react-native-reanimated": "~2.3.1",
+    "react-native-safe-area-context": "3.3.2",
+    "react-native-screens": "~3.10.1",
+    "react-native-unimodules": "~0.15.0",
+    "react-native-web": "0.17.1",
+    "react-redux": "^7.2.2",
+    "redux": "^4.0.5",
+    "rn-android-picker-dialog": "^1.1.1"
   },
   "devDependencies": {
-    "@babel/core": "~7.9.0",
+    "@babel/core": "^7.12.9",
     "babel-jest": "~25.2.6",
-    "jest": "~25.2.6",
-    "react-test-renderer": "~16.11.0"
+    "jest": "^26.6.3",
+    "react-test-renderer": "~16.11.0",
+    "redux-devtools": "^3.7.0"
   },
   "jest": {
     "preset": "react-native"

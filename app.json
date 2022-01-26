@@ -3,10 +3,20 @@
   "displayName": "stpomodoro",
   "expo": {
     "name": "stpomodoro",
+    "icon": "./icons/s.png",
     "slug": "stpomodoro",
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "ios": {
+      "bundleIdentifier": "com.hamzahraza.stoicpoomodoro",
+      "buildNumber": "1.0.0"
+
+    },
+    "android": {
+      "package": "com.hamzahraza.stoicpomodoro",
+      "versionCode": 1
+    }
   }
 }
